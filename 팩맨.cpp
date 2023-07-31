@@ -205,7 +205,7 @@ void run() {
 }
 
 int main() {
-    //freopen("꼬리잡기놀이.txt", "r", stdin);
+    //freopen("팩맨.txt", "r", stdin);
     init();
     for (int i = 0; i < T; i++) {
         run();
