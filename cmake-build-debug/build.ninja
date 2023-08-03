@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/jiho/CLionProjects/code_tree/cmake-build-debug/
 
 build cmake_object_order_depends_target_code_tree: phony || CMakeFiles/code_tree.dir
 
-build CMakeFiles/code_tree.dir/싸움땅.cpp.o: CXX_COMPILER__code_tree_Debug /Users/jiho/CLionProjects/code_tree/싸움땅.cpp || cmake_object_order_depends_target_code_tree
-  DEP_FILE = CMakeFiles/code_tree.dir/싸움땅.cpp.o.d
+build CMakeFiles/code_tree.dir/꼬리잡기놀이.cpp.o: CXX_COMPILER__code_tree_Debug /Users/jiho/CLionProjects/code_tree/꼬리잡기놀이.cpp || cmake_object_order_depends_target_code_tree
+  DEP_FILE = CMakeFiles/code_tree.dir/꼬리잡기놀이.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/code_tree.dir
   OBJECT_FILE_DIR = CMakeFiles/code_tree.dir
@@ -63,7 +63,7 @@ build CMakeFiles/code_tree.dir/싸움땅.cpp.o: CXX_COMPILER__code_tree_Debug /U
 #############################################
 # Link the executable code_tree
 
-build code_tree: CXX_EXECUTABLE_LINKER__code_tree_Debug CMakeFiles/code_tree.dir/싸움땅.cpp.o
+build code_tree: CXX_EXECUTABLE_LINKER__code_tree_Debug CMakeFiles/code_tree.dir/꼬리잡기놀이.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/code_tree.dir
   POST_BUILD = :
